@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='App'>
       <div className="search-bar-container">
+      <h1 className='search-text'>Encontre o Usuário:</h1>
         <SearchBar setResults={setResults} />
         <SearchResultsList results={results} />
       </div>

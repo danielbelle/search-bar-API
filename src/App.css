@@ -17,3 +17,9 @@
   align-items: center;
   min-width: 200px;
 }
+
+.search-text {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 30px;
+}
