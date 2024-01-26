@@ -1,5 +1,9 @@
 .App {
-  background-color: #eee;
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 108, 1) 47%, rgba(255, 0, 230, 1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 108, 1) 47%, rgba(255, 0, 230, 1) 100%);
+  background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 108, 1) 47%, rgba(255, 0, 230, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#ff00e6", GradientType=1);
   width: 100vw;
   height: 100vh;
 }
